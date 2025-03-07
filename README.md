@@ -19,8 +19,8 @@ The following are the dependencies of the script:
 ## Installation & Setup
 1. **Clone the Repository:**  
    ```sh
-   git clone https://github.com/Zman00089/AES128.git
-   cd AES128
+   git clone https://github.com/Zman00089/AutomatedUserLogin
+   cd AutomatedUserLogin
    ```
 
 2. **Set Up Dependencies:**  
