@@ -26,19 +26,20 @@ The following are the dependencies of the script:
 2. **Set Up Dependencies:**  
    Ensure that Selenium, TestNG, and the required WebDriver are correctly placed in the project directory.
 
-3. **Configure Credentials:**  
-   - Edit the `credentials.txt` file (or the designated credentials storage file) to include your login details.
+3. **Configure Directory:**  
+   - Edit the `runTest.bat` file to point to the directory where the source files are located
 
-4. **Run the Script Using the Batch File:**  
-   - Double-click `run_script.bat` to execute the login process.
+3. **Run the Script Using the Batch File:**  
+   - Double-click `runTest.bat` to execute the login process.
 
-5. **Automate Execution with Task Scheduler (Optional):**  
-   - Add `run_script.bat` to Windows Task Scheduler for automatic execution at specified intervals.
+4. **Automate Execution with Task Scheduler (Optional):**  
+   - Add `runTest.bat` to Windows Task Scheduler for automatic execution at specified intervals.
 
 ## Usage
 Once set up, the script will automatically log in to the network whenever executed, either manually via the batch file or through Task Scheduler.
 
 ## Future Improvements
+- Automatic credential lookup from saved files
 - Enhance credential security
 - Implement multi-browser support
 
